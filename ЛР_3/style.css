@@ -1,0 +1,15 @@
+body{
+background-color: #dcdcdc;
+font-size: 18px;
+font-family: Verdana, Arial, cens-serif;
+}
+a{
+text-decoration: none;
+}
+article{
+max-width: 900px;
+margin: 0 auto;
+}
+.slovar{
+	color: red;
+}
