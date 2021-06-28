@@ -1,0 +1,40 @@
+.page{
+width: 100%;
+min-height: 100vh;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+}
+.left-side {
+background-color: seashell;
+flex: 0 1 30%;
+}
+.right-side {
+    background-color: seashell;
+    flex: 1 1 auto;
+    margin: 0 50px;
+}
+.center {
+   background-color: seashell;
+   flex: 0 1 30%;
+}
+.footer {
+clear:both;
+}
+body{
+background-color:purple;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+.content{
+padding: 3em 40px;
+flex:1 1 auto;
+background-color: blue;
+display: flex;
+justify-content: space-between;
+}
+.content.img {
+margin: 100px 0px 0px 0px;
+width: 500px;
+}
